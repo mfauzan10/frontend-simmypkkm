@@ -1,0 +1,38 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "plugin:react/jsx-runtime",
+        "google",
+        "prettier"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": "latest",
+        "sourceType": "script"
+    },
+    "plugins": [
+        "react",
+        "@typescript-eslint", 
+        "react-hooks"
+    ],
+    "rules": {
+        "semi": "off",
+        "comma-dangle": "off",
+        "max-len": "off",
+        "new-cap": "off", 
+        "no-unused-vars": "off",
+        "require-jsdoc": "off",
+        "react/react-in-jsx-scope": "off",
+        "react/jsx-key": "off",
+        "react/prop-types": "off",
+        "prefer-const": "off",
+        "spaced-comment": "off"
+    }
+}

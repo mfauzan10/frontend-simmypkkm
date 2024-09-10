@@ -1,0 +1,1 @@
+import firebaseApp from './FirebaseApp'

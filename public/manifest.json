@@ -1,0 +1,33 @@
+{
+ "name": "Garuda 21",
+ "display": "standalone",
+ "start_url": "https://member.garuda-21.com",
+ "theme_color": "#E31E26",
+ "background_color": "#FFFFFF",
+ "icons": [
+  {
+   "src": "\/favicon-36x36.png",
+   "sizes": "32x32",
+   "type": "image\/png",
+   "density": "0.75"
+  },
+  {
+   "src": "\/favicon-96x96.png",
+   "sizes": "96x96",
+   "type": "image\/png",
+   "density": "2.0"
+  },
+  {
+   "src": "\/ms-icon-144x144.png",
+   "sizes": "144x144",
+   "type": "image\/png",
+   "density": "3.0"
+  },
+  {
+   "src": "\/favicon-192x192.png",
+   "sizes": "192x192",
+   "type": "image\/png",
+   "density": "4.0"
+  }
+ ]
+}
